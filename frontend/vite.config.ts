@@ -9,5 +9,9 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  server: {
+    host: true,
+    allowedHosts: ['repo-run-app-tunnel-8ht8xofn.devinapps.com']
+  },
 })
 
